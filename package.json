@@ -1,0 +1,31 @@
+{
+  "name": "graphql-redis-server",
+  "version": "1.0.0",
+  "description": "GraphQL Redis Apollo Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sproutera/graphql-redis-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sproutera/graphql-redis-server/issues"
+  },
+  "homepage": "https://github.com/sproutera/graphql-redis-server#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.13.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^6.0.0",
+    "ioredis": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
