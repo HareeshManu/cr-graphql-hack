@@ -7,7 +7,7 @@ const PORT = 4000;
 
 const app = express();
 
-const server = new ApolloServer({ typeDefs, resolvers, context: { redis } });
+const server = new ApolloServer({ typeDefs, resolvers});
 server.applyMiddleware({ app });
 
 app.listen({ port: PORT }, () =>
